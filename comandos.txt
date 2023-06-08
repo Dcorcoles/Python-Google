@@ -1,0 +1,14 @@
+Primero debemos guardar los cambios en local
+
+git status -s
+git add .
+git commit -m "mensaje"
+
+
+Para trabajar con el repositorio en la nube, solo la primera vez:
+
+git remote add origin https://github.com/Dcorcoles/Python-Google.git
+
+Una vez hemos hecho nuestras modificaciones y commits correspondientes ejecutamos el siguiente comando:
+git push -u origin master
+
